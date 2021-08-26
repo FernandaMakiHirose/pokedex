@@ -5,6 +5,15 @@ Construí um pokedéx (repositório de pokemon) através de uma Rest API feita c
 Para executar o projeto:
 >mvn spring-boot:run
 
+Pokemons:
+>http://localhost:8080/pokemons
+
+Eventos:
+>http://localhost:8080/pokemons/events
+
+Id (Substitua o `{id}` pelo id do pokemon):
+>http://localhost:8080/pokemons/{id}
+
 ## Webflux 
 É um módulo do Spring Boot para criar aplicações reativas, ou seja, é possível fazer uma chamada de eventos com diversas requisições sem que elas sejam bloqueadas, isso tudo para fazer requisições assíncronas de serviço (fazer mais de uma tarefa ao mesmo tempo).
 
