@@ -26,5 +26,5 @@ Id (Substitua o `{id}` pelo id do pokemon):
 
 ## Observação
 - Após gerar o projeto em zip foi necessário adicionar a dependência `de.flapdoodle.embed` logo abaixo do `spring-boot-starter-webflux` e excluir o `<scope>test</scope>` do mesmo dentro do arquivo `pom.xml` para funcionar corretamente.
-- O servidor do WebFlux é o Netty, mas sem usar o WebFlux é o Tomcat, mas é possível usar o Tomcat no WebFlux
+- O servidor do WebFlux é o Netty, sem usar o WebFlux é o Tomcat, mas é possível usar o Tomcat no WebFlux
 - Para o Lombok funcionar precisei adicionar `<version>1.18.20</version>` conforme [esse](https://stackoverflow.com/questions/66801256/java-lang-illegalaccesserror-class-lombok-javac-apt-lombokprocessor-cannot-acce) artigo
