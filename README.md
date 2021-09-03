@@ -6,6 +6,9 @@ Construí um pokedéx (repositório de pokemon) através de uma Rest API feita c
 - Java
 - Maven
 
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
 ## Comandos
 Para executar o projeto:
 >mvn spring-boot:run
